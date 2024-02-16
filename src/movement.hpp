@@ -13,6 +13,7 @@ public:
   void Go(Position cons, Position pos);
   inline bool go_to(Gladiator *gladiator, const Vector2 &target, bool showLogs);
   void Turn();
+  void kwak();
 
 private:
   Gladiator *gladiator;

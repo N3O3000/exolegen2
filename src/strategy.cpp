@@ -8,4 +8,6 @@ void Strategy::logAllData() {
   gladiator->log("square: %d %d\n", square->i, square->j);
   auto data = gladiator->robot->getData();
   gladiator->log("x: %f, y: %f", data.cposition.x, data.cposition.y);
+  
 }
+
