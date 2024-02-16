@@ -6,6 +6,5 @@ Gladiator *gladiator;
 Position ThisRobotPos;
 Position OtherRobotsPos[2];
 
-Rocket
-
+position rocket ::GetNearestEnemyBotPos()
 

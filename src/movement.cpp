@@ -16,6 +16,8 @@ double reductionAngle(double x) {
   return x - PI;
 }
 
+void Movement :: kwak()
+
 void Movement::Go(Position cons, Position pos) {
   target_reached = false;
   float time_elapsed = 0.0f;
